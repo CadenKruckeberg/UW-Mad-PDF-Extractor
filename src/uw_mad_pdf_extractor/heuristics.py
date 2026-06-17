@@ -52,7 +52,7 @@ GRADES = {
             {'header': 'Subject Code', 'regex': r'(\d+).+Grades *GPA'},
             {'header': 'Subject Short Description', 'regex': r'\d+ (.+) Grades *GPA'},
         ),
-        'column_lines': (202, 253, 280, 305, 332, 358, 384, 407, 433, 457, 482, 508, 532, 559, 584, 608, 633, 659, 689),
+        'column_lines': (200, 253, 280, 305, 332, 358, 384, 407, 433, 457, 482, 508, 532, 559, 584, 608, 633, 659, 689),
         'horizontal_strategy': 'text',
         'pdf_headers': ('Course Name', 'Section', '# Grades', 'Ave GPA', 'A', 'AB', 'B', 'BC', 'C', 'D', 'F', 'S', 'U', 'CR', 'N', 'P', 'I', 'NW', 'NR', 'Other'),
         'margins': {
